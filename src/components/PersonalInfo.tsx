@@ -1,5 +1,5 @@
 import React from 'react';
-
+import profil from './../assets/profil.jpg'
 const PersonalInfo = () => {
   return (
     <div className="space-y-6">
@@ -10,7 +10,7 @@ const PersonalInfo = () => {
       <div className="flex flex-col md:flex-row gap-8">
         <div className="md:w-1/3">
           <img 
-            src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+            src={profil}
             alt="Photo de profil" 
             className="rounded-lg shadow-md w-full h-auto object-cover"
           />
@@ -18,7 +18,7 @@ const PersonalInfo = () => {
         
         <div className="md:w-2/3 space-y-4">
           <div>
-            <h3 className="text-2xl font-semibold text-gray-800">Marie Dupont</h3>
+            <h3 className="text-2xl font-semibold text-gray-800">Danielle Nouesta</h3>
             <p className="text-xl text-indigo-600">Développeuse Web Junior</p>
           </div>
           
@@ -41,7 +41,7 @@ const PersonalInfo = () => {
                 </li>
                 <li className="flex items-start">
                   <span className="font-medium text-gray-700 w-24">Localisation:</span>
-                  <span className="text-gray-600">Paris, France</span>
+                  <span className="text-gray-600">Abidjan, Cote d'Ivoire</span>
                 </li>
                 <li className="flex items-start">
                   <span className="font-medium text-gray-700 w-24">Langues:</span>

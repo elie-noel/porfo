@@ -5,25 +5,25 @@ const Education = () => {
   const educationItems = [
     {
       id: 1,
-      degree: "Licence Professionnelle Développement Web",
-      institution: "Université Paris Numérique",
-      location: "Paris",
-      period: "2022 - Présent",
+      degree: "Master MIAGE",
+      institution: "UFHB",
+      location: "Abidjan",
+      period: "2024 - maintenant",
       description: "Formation complète en développement web full-stack, avec spécialisation en technologies JavaScript modernes. Projets pratiques en équipe et stage en entreprise."
     },
     {
       id: 2,
-      degree: "DUT Informatique",
-      institution: "IUT de Paris",
-      location: "Paris",
-      period: "2020 - 2022",
+      degree: "Licence MIAGE",
+      institution: "UFHB",
+      location: "Abidjan",
+      period: "2021 - 2024",
       description: "Formation généraliste en informatique couvrant les bases de la programmation, des bases de données, des réseaux et de la gestion de projet."
     },
     {
       id: 3,
       degree: "Baccalauréat Scientifique",
-      institution: "Lycée Victor Hugo",
-      location: "Paris",
+      institution: "Lycée 1",
+      location: "Abidjan",
       period: "2017 - 2020",
       description: "Baccalauréat avec spécialité Mathématiques et option Informatique. Mention Bien."
     }
